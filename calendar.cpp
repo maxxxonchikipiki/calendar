@@ -59,7 +59,6 @@ namespace Calendar {
         
         int td = month_len(mn, yn);
         int cp = so;
-        
         for (int dc = 1; dc <= td; ++dc) {
             show_num(dc);
             if (cp == 6) {
@@ -232,4 +231,5 @@ int main(int argc, char* argv[]) {
     
     return 0;
 }
+
 
