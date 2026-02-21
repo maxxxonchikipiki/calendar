@@ -1,0 +1,304 @@
+{
+  "tests": [
+    {
+      "name": "Test 1: Jan 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 1 2024 > output.txt && cmp output.txt tests/01.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2: Feb 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2 2024 > output.txt && cmp output.txt tests/02.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3: Mar 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 3 2024 > output.txt && cmp output.txt tests/03.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4: Apr 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 4 2024 > output.txt && cmp output.txt tests/04.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5: May 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 5 2024 > output.txt && cmp output.txt tests/05.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6: Jun 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 6 2024 > output.txt && cmp output.txt tests/06.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7: Jul 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 7 2024 > output.txt && cmp output.txt tests/07.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8: Aug 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 8 2024 > output.txt && cmp output.txt tests/08.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9: Sep 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 9 2024 > output.txt && cmp output.txt tests/09.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10: Oct 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 10 2024 > output.txt && cmp output.txt tests/10.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11: Nov 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 11 2024 > output.txt && cmp output.txt tests/11.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12: Dec 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 12 2024 > output.txt && cmp output.txt tests/12.2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13: Jan 2025",
+      "setup": "",
+      "run": "timeout 1 ./calendar 1 2025 > output.txt && cmp output.txt tests/01.2025.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14: Feb 2025",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2 2025 > output.txt && cmp output.txt tests/02.2025.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15: Mar 2025",
+      "setup": "",
+      "run": "timeout 1 ./calendar 3 2025 > output.txt && cmp output.txt tests/03.2025.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16: 1900",
+      "setup": "",
+      "run": "timeout 1 ./calendar 1900 > output.txt && cmp output.txt tests/1900.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17: 1969",
+      "setup": "",
+      "run": "timeout 1 ./calendar 1969 > output.txt && cmp output.txt tests/1969.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 18: 1999",
+      "setup": "",
+      "run": "timeout 1 ./calendar 1999 > output.txt && cmp output.txt tests/1999.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 19: 2000",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2000 > output.txt && cmp output.txt tests/2000.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 20: 2001",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2001 > output.txt && cmp output.txt tests/2001.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 21: 2006",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2006 > output.txt && cmp output.txt tests/2006.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 22: 2019",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2019 > output.txt && cmp output.txt tests/2019.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 23: 2020",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2020 > output.txt && cmp output.txt tests/2020.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 24: 2021",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2021 > output.txt && cmp output.txt tests/2021.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 25: 2022",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2022 > output.txt && cmp output.txt tests/2022.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 26: 2023",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2023 > output.txt && cmp output.txt tests/2023.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 27: 2024",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2024 > output.txt && cmp output.txt tests/2024.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 28: 2025",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2025 > output.txt && cmp output.txt tests/2025.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 29: 2026",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2026 > output.txt && cmp output.txt tests/2026.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 30: 2050",
+      "setup": "",
+      "run": "timeout 1 ./calendar 2050 > output.txt && cmp output.txt tests/2050.txt ",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
