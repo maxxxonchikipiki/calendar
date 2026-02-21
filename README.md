@@ -1,5 +1,4 @@
-[![Workflow Status](https://github.com/maxxxonchikipiki/calendar/actions/workflows/github-classroom-workflow.yml/badge.svg)](https://github.com/maxxxonchikipiki/calendar/actions)
-
+![Workflow Status](https://github.com/maxxxonchikipiki/calendar/actions/workflows/classroom.yml/badge.svg)
 
 # Календарь
 Напечатайте календарь на заданный год или заданный месяц года.
@@ -46,6 +45,7 @@ Su Mo Tu We Th Fr Sa
 
 ## Требования
 Программа не должна использовать контейнеры STL (std::vector, std::string и т. д.). 
+
 
 
 
