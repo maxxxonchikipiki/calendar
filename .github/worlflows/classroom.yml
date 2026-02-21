@@ -24,6 +24,8 @@ jobs:
              clang++ -pedantic-errors -std=c++20 calendar.cpp -o calendar
       - name: Autograding
         uses: amcp-pit/autograding@v1
+      - name: Install valgrind
+        run: sudo apt-get update && sudo apt-get install -y valgrind
       - name: Memory leaks
         run: |
              valgrind --tool=memcheck --leak-check=full --undef-value-errors=no --error-exitcode=111 ./calendar 2025
