@@ -1,5 +1,6 @@
 ![Workflow Status](https://github.com/maxxxonchikipiki/calendar/actions/workflows/classroom.yml/badge.svg)
 
+Данный репозиторий - копия закрытого учебного репозитория учебной программы 1-го курса (1-го семестра) факультета ПМ-ПУ СПбГУ
 # Календарь
 Напечатайте календарь на заданный год или заданный месяц года.
 
